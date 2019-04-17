@@ -109,7 +109,7 @@ Pod::Spec.new do |spec|
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
   # 10
-  spec.swift_version = "4.2"
+  spec.swift_versions = "4.2"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
