@@ -54,7 +54,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "diepnn" => "diepnn01.it@gmail.com" }
   # Or just: spec.author    = "diep nguyen"
   # spec.authors            = { "diep nguyen" => "" }
-  spec.social_media_url   = "https://www.linkedin.com/in/diep-nguyen-22b121aa"
+  spec.social_media_url   = "https://github.com/diepnn01"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SwiftExtension/**/*.{swift}"
+  spec.source_files  = "SwiftExtension/SwiftExtension/**/*.{swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
