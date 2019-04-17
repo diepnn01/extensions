@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Summerising some of useful swift extensions that we used in our projects."
+  spec.description  = "We're building useful swift extensions for our projects. It will be reused in other project. I hope it will useful other developer as well"
 
   spec.homepage     = "https://github.com/diepnn01/extensions.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
