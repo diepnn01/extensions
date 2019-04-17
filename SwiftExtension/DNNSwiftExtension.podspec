@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "SwiftExtension"
+  spec.name         = "DNNSwiftExtension"
   spec.version      = "0.0.3"
   spec.summary      = "Summerising some of useful swift extensions that we used in our projects."
 
