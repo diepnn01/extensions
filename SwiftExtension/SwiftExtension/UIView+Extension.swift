@@ -11,7 +11,7 @@ import UIKit
 extension UIView {
     
     @discardableResult
-    func setGradient(startColor: UIColor, endColor: UIColor) -> CAGradientLayer {
+    public func setGradient(startColor: UIColor, endColor: UIColor) -> CAGradientLayer {
         
         let colorTop = startColor.cgColor
         let colorBottom = endColor.cgColor
@@ -25,7 +25,7 @@ extension UIView {
         return gradientLayer
     }
     
-    @IBInspectable var cornerRadius: CGFloat {
+    @IBInspectable public var cornerRadius: CGFloat {
         set {
             layer.cornerRadius = newValue
         }
@@ -34,7 +34,7 @@ extension UIView {
         }
     }
     
-    func roundCorners(corners: UIRectCorner, radius: CGFloat) {
+    public func roundCorners(corners: UIRectCorner, radius: CGFloat) {
         
         let path = UIBezierPath(roundedRect: self.bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
         let maskLayer = CAShapeLayer()

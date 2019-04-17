@@ -9,21 +9,21 @@
 import Foundation
 import UIKit
 
-enum DateFormat: String {
+public enum DateFormat: String {
     case client = "MM.dd.yyyy"
     case server = "yyyy-MM-dd HH:mm:ss"
 }
 
 extension Date {
     
-    static var dateFormatter: DateFormatter {
+    public static var dateFormatter: DateFormatter {
         let formatter = DateFormatter()
         formatter.dateFormat = DateFormat.server.rawValue
         formatter.locale = Locale.current
         return formatter
     }
     
-    func getStringDate(format: DateFormat) -> String {
+    public func getStringDate(format: DateFormat) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = format.rawValue
         return dateFormatter.string(from: self)

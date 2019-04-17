@@ -8,12 +8,12 @@
 
 extension NSObject {
     
-    var className: String {
+    public var className: String {
         let name = String(describing: self)
         return name
     }
     
-    class var className: String {
+    public  class var className: String {
         
         return String(describing: self)
     }

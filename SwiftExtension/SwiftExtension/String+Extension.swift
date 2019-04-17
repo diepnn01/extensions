@@ -9,15 +9,15 @@
 
 extension String {
     
-    func localize() -> String {
+    public func localize() -> String {
         return NSLocalizedString(self, comment: "")
     }
     
-    func localize(arguments: String...) -> String {
+    public func localize(arguments: String...) -> String {
         return String(format: NSLocalizedString(self, comment: ""), arguments: arguments)
     }
     
-    func localize(arguments: CVarArg...) -> String {
+    public func localize(arguments: CVarArg...) -> String {
         return String(format: NSLocalizedString(self, comment: ""), arguments: arguments)
     }
 }

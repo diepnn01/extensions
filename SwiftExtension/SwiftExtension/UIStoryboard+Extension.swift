@@ -8,7 +8,7 @@
 
 extension UIStoryboard {
     
-    static func loadViewControler(_ nameStoryBoard: String, nameController: String) -> UIViewController? {
+    public static func loadViewControler(_ nameStoryBoard: String, nameController: String) -> UIViewController? {
         let storyboard = UIStoryboard(name: nameStoryBoard, bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: nameController)
         return controller
