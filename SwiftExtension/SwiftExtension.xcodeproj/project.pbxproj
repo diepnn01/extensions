@@ -11,6 +11,13 @@
 		5F32B230226712FB00A58AC6 /* SwiftExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32B22F226712FB00A58AC6 /* SwiftExtensionTests.swift */; };
 		5F32B232226712FB00A58AC6 /* SwiftExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F32B224226712FB00A58AC6 /* SwiftExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F32B23C2267244F00A58AC6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32B23B2267244F00A58AC6 /* String+Extension.swift */; };
+		5F32B240226733A700A58AC6 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32B23F226733A700A58AC6 /* NSObject+Extension.swift */; };
+		5F32B2422267340400A58AC6 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32B2412267340400A58AC6 /* UIView+Extension.swift */; };
+		5F32B244226734CA00A58AC6 /* UITableview+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32B243226734CA00A58AC6 /* UITableview+Extension.swift */; };
+		5F32B246226734ED00A58AC6 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32B245226734ED00A58AC6 /* UIStoryboard+Extension.swift */; };
+		5F32B24A2267357D00A58AC6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32B2472267357D00A58AC6 /* UIViewController+Extension.swift */; };
+		5F32B24B2267357D00A58AC6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32B2482267357D00A58AC6 /* UIColor+Extension.swift */; };
+		5F32B24C2267357D00A58AC6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32B2492267357D00A58AC6 /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +38,13 @@
 		5F32B22F226712FB00A58AC6 /* SwiftExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtensionTests.swift; sourceTree = "<group>"; };
 		5F32B231226712FB00A58AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F32B23B2267244F00A58AC6 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		5F32B23F226733A700A58AC6 /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		5F32B2412267340400A58AC6 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		5F32B243226734CA00A58AC6 /* UITableview+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableview+Extension.swift"; sourceTree = "<group>"; };
+		5F32B245226734ED00A58AC6 /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		5F32B2472267357D00A58AC6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		5F32B2482267357D00A58AC6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		5F32B2492267357D00A58AC6 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +89,14 @@
 			children = (
 				5F32B224226712FB00A58AC6 /* SwiftExtension.h */,
 				5F32B225226712FB00A58AC6 /* Info.plist */,
+				5F32B243226734CA00A58AC6 /* UITableview+Extension.swift */,
 				5F32B23B2267244F00A58AC6 /* String+Extension.swift */,
+				5F32B23F226733A700A58AC6 /* NSObject+Extension.swift */,
+				5F32B2492267357D00A58AC6 /* Date+Extension.swift */,
+				5F32B2482267357D00A58AC6 /* UIColor+Extension.swift */,
+				5F32B2472267357D00A58AC6 /* UIViewController+Extension.swift */,
+				5F32B2412267340400A58AC6 /* UIView+Extension.swift */,
+				5F32B245226734ED00A58AC6 /* UIStoryboard+Extension.swift */,
 			);
 			path = SwiftExtension;
 			sourceTree = "<group>";
@@ -198,7 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F32B24B2267357D00A58AC6 /* UIColor+Extension.swift in Sources */,
+				5F32B24A2267357D00A58AC6 /* UIViewController+Extension.swift in Sources */,
 				5F32B23C2267244F00A58AC6 /* String+Extension.swift in Sources */,
+				5F32B2422267340400A58AC6 /* UIView+Extension.swift in Sources */,
+				5F32B240226733A700A58AC6 /* NSObject+Extension.swift in Sources */,
+				5F32B24C2267357D00A58AC6 /* Date+Extension.swift in Sources */,
+				5F32B244226734CA00A58AC6 /* UITableview+Extension.swift in Sources */,
+				5F32B246226734ED00A58AC6 /* UIStoryboard+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
