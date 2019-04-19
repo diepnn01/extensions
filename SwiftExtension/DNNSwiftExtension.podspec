@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DNNSwiftExtension"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "Summerising some of useful swift extensions that we used in our projects."
 
   # This description is used to generate tags and improve search results.
@@ -66,7 +66,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "11.0"
 
   #  When using multiple platforms
-  #spec.ios.deployment_target = "10.0"
+  spec.ios.deployment_target = "10.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
