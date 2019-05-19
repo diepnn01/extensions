@@ -7,7 +7,8 @@
 //
 
 import UIKit
-class BaseCustomXibView: UIView {
+
+open class BaseCustomXibView: UIView {
 	
 	var view: UIView!
 	fileprivate(set) var nibName: String!
@@ -17,7 +18,7 @@ class BaseCustomXibView: UIView {
 		initialize()
 		xibSetup()
 	}
-	required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
 		super.init(coder: aDecoder)
 		initialize()
 		xibSetup()
@@ -32,7 +33,7 @@ class BaseCustomXibView: UIView {
 		didLoadFromNib()
 	}
 	
-	func loadViewFromNib() -> UIView {
+	open func loadViewFromNib() -> UIView {
 		let bundle = Bundle(for: type(of: self))
 		let nib = UINib(nibName: nibName, bundle: bundle)
 		if let view = nib.instantiate(withOwner: self, options: nil).first as? UIView {
@@ -41,8 +42,9 @@ class BaseCustomXibView: UIView {
 		return UIView()
 	}
 	
-	func initialize() {
+	open func initialize() {
 		nibName = "\(self.classForCoder)"
 	}
+    
 	func didLoadFromNib() {}
 }
