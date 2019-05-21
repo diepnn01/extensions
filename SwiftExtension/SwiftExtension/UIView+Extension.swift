@@ -10,7 +10,7 @@ import UIKit
 
 extension UIView {
     
-    public var ParentViewController: UIViewController? {
+    public var parentViewController: UIViewController? {
         var parentController: UIViewController?
         var responder: UIResponder? = self
         while true {
