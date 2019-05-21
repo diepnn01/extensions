@@ -19,6 +19,7 @@
 		5F32B24B2267357D00A58AC6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32B2482267357D00A58AC6 /* UIColor+Extension.swift */; };
 		5F32B24C2267357D00A58AC6 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F32B2492267357D00A58AC6 /* Date+Extension.swift */; };
 		5FAF9E6C2291506400AE1D64 /* BaseCustomXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF9E6B2291506300AE1D64 /* BaseCustomXibView.swift */; };
+		5FAF9E6E2293A46600AE1D64 /* BasePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF9E6D2293A46600AE1D64 /* BasePopupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5F32B2482267357D00A58AC6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		5F32B2492267357D00A58AC6 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		5FAF9E6B2291506300AE1D64 /* BaseCustomXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCustomXibView.swift; sourceTree = "<group>"; };
+		5FAF9E6D2293A46600AE1D64 /* BasePopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasePopupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				5F32B224226712FB00A58AC6 /* SwiftExtension.h */,
 				5F32B225226712FB00A58AC6 /* Info.plist */,
 				5F32B243226734CA00A58AC6 /* UITableview+Extension.swift */,
+				5FAF9E6D2293A46600AE1D64 /* BasePopupView.swift */,
 				5F32B23B2267244F00A58AC6 /* String+Extension.swift */,
 				5F32B23F226733A700A58AC6 /* NSObject+Extension.swift */,
 				5FAF9E6B2291506300AE1D64 /* BaseCustomXibView.swift */,
@@ -225,6 +228,7 @@
 			files = (
 				5F32B24B2267357D00A58AC6 /* UIColor+Extension.swift in Sources */,
 				5F32B24A2267357D00A58AC6 /* UIViewController+Extension.swift in Sources */,
+				5FAF9E6E2293A46600AE1D64 /* BasePopupView.swift in Sources */,
 				5F32B23C2267244F00A58AC6 /* String+Extension.swift in Sources */,
 				5F32B2422267340400A58AC6 /* UIView+Extension.swift in Sources */,
 				5F32B240226733A700A58AC6 /* NSObject+Extension.swift in Sources */,
