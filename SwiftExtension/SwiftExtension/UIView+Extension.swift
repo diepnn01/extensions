@@ -10,6 +10,22 @@ import UIKit
 
 extension UIView {
     
+    public var ParentViewController: UIViewController? {
+        var parentController: UIViewController?
+        var responder: UIResponder? = self
+        while true {
+            responder = responder?.next
+            if responder == nil {
+                break
+            }
+            parentController = responder as? UIViewController
+            if parentController != nil {
+                break
+            }
+        }
+        return parentController
+    }
+    
     public class func fromNib<T: UIView>() -> T {
         guard let view = Bundle.main.loadNibNamed(String(describing: T.self), owner: nil, options: nil)?.first as? T else {
             return T()
