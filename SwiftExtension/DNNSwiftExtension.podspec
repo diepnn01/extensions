@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "DNNSwiftExtension"
-  spec.version      = "1.0.6"
+  spec.version      = "1.0.7"
   spec.summary      = "Summerizing some of useful swift extensions that we used in our projects."
 
   # This description is used to generate tags and improve search results.
