@@ -10,7 +10,7 @@ import UIKit
 
 extension UIView {
     
-    class func fromNib<T: UIView>() -> T {
+    public class func fromNib<T: UIView>() -> T {
         guard let view = Bundle.main.loadNibNamed(String(describing: T.self), owner: nil, options: nil)?.first as? T else {
             return T()
         }
