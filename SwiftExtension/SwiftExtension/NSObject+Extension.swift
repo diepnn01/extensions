@@ -13,7 +13,7 @@ extension NSObject {
         return name
     }
     
-    public  class var className: String {
+    public class var className: String {
         
         return String(describing: self)
     }
